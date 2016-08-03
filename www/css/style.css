@@ -1,0 +1,376 @@
+/* Empty. Add your own CSS if you like */
+
+/* Splash Screen Styling */
+
+ion-view.app-splash
+{
+    background-color:#F06464;
+}
+
+div.app-splash
+{
+    text-align:center;
+    margin:50px 20px;
+    color:#FFF;
+}
+
+h3.app-splash
+{
+    margin:20px 0px; 
+    color:#FFF;
+}
+
+img.app-splash
+{
+    margin:10px 0px; 
+    width:35%; 
+    height:35%
+}
+
+p.app-splash
+{
+    margin:35px 0px;
+    font-size:20px;
+}
+
+.bar
+{
+    background-color: #F0645D;
+}
+
+.tabs-positive > .tabs{
+background-color:  #F0645D !important;
+}
+.title , .ion-navicon , .ion-chevron-left , .button-icon
+{
+    color: #fff;
+}
+
+.has-header
+{
+    overflow-y:auto;
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 4px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px pink; 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(240,100,93,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(240,100,93,0.4); 
+} 
+
+
+
+
+
+
+/* Menu Styling */
+
+.app-menu
+{
+    color: #F0645D;
+}
+
+
+/* Home Screen Styling  */
+
+.chat-item
+{
+    border-bottom: solid 2px #DE5D5D;
+}
+ 
+.chat-item.ng-enter {
+    -webkit-animation: fadeInUp 1s;
+    animation: fadeInUp 1s;
+}
+
+.chat-item.ng-enter-stagger {
+  -webkit-animation-delay:200ms;
+  animation-delay:200ms;
+ 
+  /* override to make sure it's not inherited from other styles */
+  -webkit-animation-duration:0;
+  animation-duration:0;
+}
+
+.icon.ion-chevron-right
+{
+    color:#E75480
+}
+
+
+/* Events Screen Styling */
+
+/* About Us Screen Styling  */
+div.app-about
+{
+    text-align:center;
+    /*margin:130px 20px;*/
+    margin: 0px 20px;
+    color:#000;
+}
+
+h4.app-about
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+img.app-about
+{
+    width:25%; 
+    height:25%;
+}
+
+p.app-about
+{
+    text-align:inherit;
+    margin: 20px;
+    font-size: 18px;
+}
+
+a.app-about
+{
+    margin-left: 30px;
+    text-align: left;
+}
+ 
+p.app-about.dreamwood
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* Events Screen Styling*/
+
+.video-item
+{
+    border-bottom: solid 2px #DE5D5D;
+}
+
+.image-list-thumb
+{
+    border: solid 1px #DE5D5D;
+}
+.video-item.ng-enter{
+    -webkit-animation: fadeInLeft 1s;
+    animation: fadeInLeft 1s;
+    
+}
+
+.video-item.ng-enter-stagger{
+    -webkit-animation-delay:200ms;
+  animation-delay:200ms;
+ 
+  /* override to make sure it's not inherited from other styles */
+  -webkit-animation-duration:0;
+  animation-duration:0;
+}
+
+
+.icon.ion-play
+{
+    color:#F06464;
+}
+
+.icon.ion-play:hover
+{
+    color:#F26D7D;
+}
+
+.imgGallery
+{
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.icon.ion-chevron-right
+{
+    color:#F0645D
+}
+
+#no-data
+{
+    margin-top: 70px; 
+    
+}
+
+h3.app-events
+{
+    text-align: center;
+    font-size: 18px;
+    
+    color: #898989;
+    font-family: "SayWeb", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.ion-heart-broken, .ion-android-sad
+{
+    color: #F0645D;
+    font-size: 800%;
+    
+}
+
+.imgGallery{
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.image-modal {
+    width: 100% !important;
+    height: 100%;
+    top: 0 !important;
+    left: 0 !important;
+}
+ 
+.transparent-video {
+    background: rgba(255,255,255,0.1) !important;
+}
+
+.transparent-image {
+    background: rgba(0,0,0,0.5) !important;
+}
+ 
+.fullscreen-image {
+    max-width: 100%;
+    max-height: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.ion-nifty-modal-image {
+  width: 100%;
+  min-height: 0 !important;
+  height: 100% important;
+  top: 10%;
+  
+  
+  bottom: 10%;
+  background-color: transparent;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.even-more-custom-icon {
+    float: right;
+  font-size: 40px;
+  padding-right: 10px;
+    padding-top: 10px;
+    color: #000;
+}
+
+.even-more-custom-icon-image {
+    float: right;
+  font-size: 40px;
+  padding-right: 10px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+
+
+/* Video-Popover Styling */
+
+#video-title
+{
+    margin-top: 15px;
+}
+.title-des
+{
+    margin-top: 222px;
+    margin: 10px;
+    
+}
+
+h4.title-des
+{    
+    
+    font-size: 18px;
+    color: #ce4a49;
+}
+
+h5.title-des
+{
+    font-size : 14px;
+    color:#ce4a49;
+    text-align: justify;
+}
+#company-name
+{
+    margin-top: 40px;
+    text-align: center;
+    color:  #ce4a49;
+       
+}
+
+#developer-name
+{
+    text-align: center;
+     margin-left: auto;
+    margin-right: auto;
+    color:#fff;
+       
+}
+
+
+.button-full
+{
+    
+    background-color: #F0645D;
+    color: #fff;
+}
+.button-full:hover
+{
+    color: #fff;
+}
+
+textarea
+{
+    width:100%;
+}
+
+.formErrors
+{
+    color:red;
+    text-align:center; 
+    font-size:15px;
+}
+
+
+/* Feedback Screen Styling */
+
+.button-full.app-feedback
+{
+    height: 60px;
+}
+
+
+h3.app-request
+{
+    text-align: center;
+    color: #898989;
+    font-family: "SayWeb", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}

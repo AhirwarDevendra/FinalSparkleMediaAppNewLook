@@ -1,0 +1,49 @@
+<ion-view view-title="Ask For a service">
+  <ion-nav-buttons side="right">
+    <button class="button button-icon icon ion-ios-compose" ng-click="requestEvent()"></button>
+    <button menu-toggle="right" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+    <ion-content padding="true" class="has-header">
+    	<form name="faleComigoForm" novalidate form-manager autocomplete="off"><!--  -->
+          <h3 class="app-request">Ask For a Service</h3>
+            <p class="formErrors" ng-show="ShowError">** All Fields are Manditory **</p>
+    		<label class="item item-input">
+			  <span class="input-label">Name</span>
+			  <input type="text" id="requestInput.serviceRequestName" ng-model="requestInput.serviceRequestName" required>
+			</label>
+            
+            <label class="item item-input">
+			  <span class="input-label">Mobile No</span>
+			  <input type="text" ng-model="requestInput.serviceRequestMobile" id="requestInput.serviceRequestMobile" required>
+			</label>
+            <label class="item item-input">
+			  <span class="input-label">Email Address</span>
+			  <input type="text" ng-model="requestInput.serviceRequestEmail" id="requestInput.serviceRequestEmail" required>
+			</label>
+            <label class="item item-input item-select">
+			  <span class="input-label">Service Type</span>
+			     <select ng-model="requestInput.serviceRequestService" id="requestInput.serviceRequestService">
+                     <option value="" selected>Select Your Service</option>
+                     <option ng-repeat="x in services" value="{{ x.service_name}}">
+		                          {{ x.service_name }}
+		              </option>
+                </select>
+			</label>
+    		<label class="item item-input">
+    			<textarea type="text" placeholder="Notes About services"rows="5" required="" ng-model="requestInput.serviceRequestMessage"></textarea>
+    		</label>
+            <label class="item item-input item-select">
+			  <span class="input-label">Location</span>
+			  <select ng-model="requestInput.serviceRequestLocation">
+                     <option value="Mumbai" selected>Mumbai</option>
+                     <option value="Thane">Thane</option>
+                </select>
+			</label>
+    		<button ng-click="addData()" class="button button-full" id="service-btn" >
+			   Request a service
+			</button> 
+    	</form>
+        
+       
+    </ion-content>
+</ion-view>
