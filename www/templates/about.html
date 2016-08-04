@@ -3,19 +3,19 @@
     <button class="button button-icon icon ion-ios-compose" ng-click="requestEvent()"></button>
     <button menu-toggle="right" class="button button-icon icon ion-navicon"></button>
   </ion-nav-buttons>
-    <ion-content>
+    <ion-content style="background-color:#F06464; color:#fff;">
         <div class="app-about" >
-        <h4 class="app-about">Sparkle Media and Entertainment Pvt. Ltd.</h4>
+        <h4 class="app-about">Sparkle Media and Entertainment</h4>
     	<img class="app-about" src="img/sparkleLoad.gif">
         <p class="app-about">Hailing from the Kutchi Visha Oswal community in Mumbai and having have hosted, anchored, compared, and managed several events worldwide, Rita Haria has been delivering excellence by keeping in mind only one mantra: "It's an everyday event for me, but for the client, its once in a lifetime event. Nothing except excellence should be allowed to be delivered. Nothing ordinary, nothing mediocre, only and only extra ordinary."</p>
-        <ion-list>
-            <ion-item class="item-icon-left " ng-repeat="aboutusData in aboutdata" style="text-align:left;">
+        <ion-list >
+            <ion-item class="item-icon-left " ng-repeat="aboutusData in aboutdata" style="text-align:left;background-color:#F06464; color:#fff;">
                 <i class="{{aboutusData.icon}}" style="color:{{aboutusData.color}}"></i>
-                <a class="app-about" href="{{aboutusData.link}}">{{aboutusData.title}} </a>
+                <a class="app-about" href="{{aboutusData.link}}"style="color:#fff;" >{{aboutusData.title}} </a>
             </ion-item>
             
         </ion-list>
-       <p class="app-about dreamwood">App Developed By<br><a href="http://dreamwood.in/">Dreamwood Information Technologies Pvt. Ltd.</a></p>
+       <p class="app-about dreamwood">App Developed By<br><a href="http://dreamwood.in/" style="color:#fff;">Dreamwood Information Technologies Pvt. Ltd.</a></p>
         </div>
     </ion-content>
 </ion-view>
