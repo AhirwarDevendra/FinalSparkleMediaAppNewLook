@@ -7,6 +7,13 @@ a
 
 /* Splash Screen Styling */
 
+img.app-dreamwwood
+{
+    margin:8px 0px; 
+    width:45%; 
+    height:35%
+}
+
 ion-view.app-splash
 {
     background-color:#F06464;
