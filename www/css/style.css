@@ -138,20 +138,20 @@ h4.app-about
     margin-top: 10px;
     margin-bottom: 20px;
     color:#fff;
-    font-size:20px;
+    font-size:18px;
 }
 
 img.app-about
 {
-    width:20%; 
-    height:2%;
+    width:15%; 
+    height:1%;
 }
 
 p.app-about
 {
     text-align:inherit;
     margin: 15px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 a.app-about
