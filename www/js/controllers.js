@@ -3,10 +3,10 @@ angular.module('sparkle.controllers',[])
 .controller('SplashCtrl',['$state','$http',function($state,$http){
 
 	console.log("Splash Called");
-	/*setTimeout(function()
+	setTimeout(function()
                 {
                     $state.go('app.home')
-                },1800);*/
+                },1800);
 }])
 
 .controller('SparkleCtrl',['$scope','$state','$ionicHistory','$ionicSideMenuDelegate','$ionicActionSheet', function($scope,$state,$ionicHistory,$ionicSideMenuDelegate,$ionicActionSheet){
