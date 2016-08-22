@@ -1,5 +1,6 @@
 {
     "jscodehints.detectedExclusions": [
-        "C:/Project/FinalSparkleMedia/www/js/services.js"
+        "C:/Project/FinalSparkleMedia/www/js/services.js",
+        "G:/Dreamwood/FinalSparkleMedia/platforms/android/platform_www/plugins/cordova-plugin-network-information/www/Connection.js"
     ]
 }
